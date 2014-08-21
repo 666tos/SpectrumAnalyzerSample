@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>00AE6969-CD17-4251-ABAC-4BF6587A687A</string>
+	<key>IDESourceControlProjectName</key>
+	<string>SpectrumAnalyzerSample</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>DAA189F3-0844-49F7-910C-3C16B632ED97</key>
+		<string>ssh://github.com/666tos/SpectrumAnalyzerSample.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>SpectrumAnalyzerSample/SpectrumAnalyzerSample.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>DAA189F3-0844-49F7-910C-3C16B632ED97</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/666tos/SpectrumAnalyzerSample.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>DAA189F3-0844-49F7-910C-3C16B632ED97</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>DAA189F3-0844-49F7-910C-3C16B632ED97</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SpectrumAnalyzerSample</string>
+		</dict>
+	</array>
+</dict>
+</plist>

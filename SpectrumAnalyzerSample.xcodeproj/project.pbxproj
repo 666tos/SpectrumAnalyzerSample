@@ -1,0 +1,499 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9A489EB319A615C000FF1CEF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A489EB219A615C000FF1CEF /* Foundation.framework */; };
+		9A489EB519A615C000FF1CEF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A489EB419A615C000FF1CEF /* CoreGraphics.framework */; };
+		9A489EB719A615C000FF1CEF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A489EB619A615C000FF1CEF /* UIKit.framework */; };
+		9A489EBD19A615C000FF1CEF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9A489EBB19A615C000FF1CEF /* InfoPlist.strings */; };
+		9A489EBF19A615C000FF1CEF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A489EBE19A615C000FF1CEF /* main.m */; };
+		9A489EC319A615C000FF1CEF /* NIAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A489EC219A615C000FF1CEF /* NIAppDelegate.m */; };
+		9A489EC619A615C000FF1CEF /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A489EC419A615C000FF1CEF /* Main_iPhone.storyboard */; };
+		9A489EC919A615C000FF1CEF /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A489EC719A615C000FF1CEF /* Main_iPad.storyboard */; };
+		9A489ECC19A615C000FF1CEF /* NIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A489ECB19A615C000FF1CEF /* NIViewController.m */; };
+		9A489ECE19A615C000FF1CEF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A489ECD19A615C000FF1CEF /* Images.xcassets */; };
+		9A489ED619A615C000FF1CEF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A489EB219A615C000FF1CEF /* Foundation.framework */; };
+		9A489ED719A615C000FF1CEF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A489EB619A615C000FF1CEF /* UIKit.framework */; };
+		9A489EEC19A616C300FF1CEF /* NISpectrumAnalyzerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A489EEB19A616C300FF1CEF /* NISpectrumAnalyzerView.m */; };
+		9A489EF219A6175300FF1CEF /* NIAudioManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9A489EEF19A6175300FF1CEF /* NIAudioManager.mm */; };
+		9A489EF319A6175300FF1CEF /* NIFFTHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A489EF119A6175300FF1CEF /* NIFFTHelper.m */; };
+		9A489EF719A619A500FF1CEF /* NICommonUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A489EF619A619A500FF1CEF /* NICommonUtils.m */; };
+		9A489EFA19A61A1E00FF1CEF /* NIDeviceUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A489EF919A61A1E00FF1CEF /* NIDeviceUtils.m */; };
+		9A489EFC19A61F1C00FF1CEF /* Rayman_2_music_sample.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9A489EFB19A61F1C00FF1CEF /* Rayman_2_music_sample.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9A489ED819A615C000FF1CEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A489EA719A615C000FF1CEF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A489EAE19A615C000FF1CEF;
+			remoteInfo = SpectrumAnalyzerSample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9A489EAF19A615C000FF1CEF /* SpectrumAnalyzerSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpectrumAnalyzerSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A489EB219A615C000FF1CEF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9A489EB419A615C000FF1CEF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9A489EB619A615C000FF1CEF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9A489EBA19A615C000FF1CEF /* SpectrumAnalyzerSample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SpectrumAnalyzerSample-Info.plist"; sourceTree = "<group>"; };
+		9A489EBC19A615C000FF1CEF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9A489EBE19A615C000FF1CEF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9A489EC019A615C000FF1CEF /* SpectrumAnalyzerSample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SpectrumAnalyzerSample-Prefix.pch"; sourceTree = "<group>"; };
+		9A489EC119A615C000FF1CEF /* NIAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NIAppDelegate.h; sourceTree = "<group>"; };
+		9A489EC219A615C000FF1CEF /* NIAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NIAppDelegate.m; sourceTree = "<group>"; };
+		9A489EC519A615C000FF1CEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		9A489EC819A615C000FF1CEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		9A489ECA19A615C000FF1CEF /* NIViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NIViewController.h; sourceTree = "<group>"; };
+		9A489ECB19A615C000FF1CEF /* NIViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NIViewController.m; sourceTree = "<group>"; };
+		9A489ECD19A615C000FF1CEF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9A489ED319A615C000FF1CEF /* SpectrumAnalyzerSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpectrumAnalyzerSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A489EEA19A616C300FF1CEF /* NISpectrumAnalyzerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NISpectrumAnalyzerView.h; sourceTree = "<group>"; };
+		9A489EEB19A616C300FF1CEF /* NISpectrumAnalyzerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NISpectrumAnalyzerView.m; sourceTree = "<group>"; };
+		9A489EEE19A6175300FF1CEF /* NIAudioManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIAudioManager.h; sourceTree = "<group>"; };
+		9A489EEF19A6175300FF1CEF /* NIAudioManager.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; lineEnding = 0; path = NIAudioManager.mm; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		9A489EF019A6175300FF1CEF /* NIFFTHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIFFTHelper.h; sourceTree = "<group>"; };
+		9A489EF119A6175300FF1CEF /* NIFFTHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIFFTHelper.m; sourceTree = "<group>"; };
+		9A489EF519A619A500FF1CEF /* NICommonUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NICommonUtils.h; sourceTree = "<group>"; };
+		9A489EF619A619A500FF1CEF /* NICommonUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NICommonUtils.m; sourceTree = "<group>"; };
+		9A489EF819A61A1E00FF1CEF /* NIDeviceUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIDeviceUtils.h; sourceTree = "<group>"; };
+		9A489EF919A61A1E00FF1CEF /* NIDeviceUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIDeviceUtils.m; sourceTree = "<group>"; };
+		9A489EFB19A61F1C00FF1CEF /* Rayman_2_music_sample.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Rayman_2_music_sample.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9A489EAC19A615C000FF1CEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A489EB519A615C000FF1CEF /* CoreGraphics.framework in Frameworks */,
+				9A489EB719A615C000FF1CEF /* UIKit.framework in Frameworks */,
+				9A489EB319A615C000FF1CEF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A489ED019A615C000FF1CEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A489ED719A615C000FF1CEF /* UIKit.framework in Frameworks */,
+				9A489ED619A615C000FF1CEF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9A489EA619A615C000FF1CEF = {
+			isa = PBXGroup;
+			children = (
+				9A489EB819A615C000FF1CEF /* SpectrumAnalyzerSample */,
+				9A489EB119A615C000FF1CEF /* Frameworks */,
+				9A489EB019A615C000FF1CEF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9A489EB019A615C000FF1CEF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A489EAF19A615C000FF1CEF /* SpectrumAnalyzerSample.app */,
+				9A489ED319A615C000FF1CEF /* SpectrumAnalyzerSampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9A489EB119A615C000FF1CEF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9A489EB219A615C000FF1CEF /* Foundation.framework */,
+				9A489EB419A615C000FF1CEF /* CoreGraphics.framework */,
+				9A489EB619A615C000FF1CEF /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9A489EB819A615C000FF1CEF /* SpectrumAnalyzerSample */ = {
+			isa = PBXGroup;
+			children = (
+				9A489EF419A619A500FF1CEF /* Utils */,
+				9A489EED19A6175300FF1CEF /* Engine */,
+				9A489EEA19A616C300FF1CEF /* NISpectrumAnalyzerView.h */,
+				9A489EEB19A616C300FF1CEF /* NISpectrumAnalyzerView.m */,
+				9A489EC119A615C000FF1CEF /* NIAppDelegate.h */,
+				9A489EC219A615C000FF1CEF /* NIAppDelegate.m */,
+				9A489EC419A615C000FF1CEF /* Main_iPhone.storyboard */,
+				9A489EC719A615C000FF1CEF /* Main_iPad.storyboard */,
+				9A489ECA19A615C000FF1CEF /* NIViewController.h */,
+				9A489ECB19A615C000FF1CEF /* NIViewController.m */,
+				9A489ECD19A615C000FF1CEF /* Images.xcassets */,
+				9A489EB919A615C000FF1CEF /* Supporting Files */,
+			);
+			path = SpectrumAnalyzerSample;
+			sourceTree = "<group>";
+		};
+		9A489EB919A615C000FF1CEF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9A489EFB19A61F1C00FF1CEF /* Rayman_2_music_sample.mp3 */,
+				9A489EBA19A615C000FF1CEF /* SpectrumAnalyzerSample-Info.plist */,
+				9A489EBB19A615C000FF1CEF /* InfoPlist.strings */,
+				9A489EBE19A615C000FF1CEF /* main.m */,
+				9A489EC019A615C000FF1CEF /* SpectrumAnalyzerSample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9A489EED19A6175300FF1CEF /* Engine */ = {
+			isa = PBXGroup;
+			children = (
+				9A489EEE19A6175300FF1CEF /* NIAudioManager.h */,
+				9A489EEF19A6175300FF1CEF /* NIAudioManager.mm */,
+				9A489EF019A6175300FF1CEF /* NIFFTHelper.h */,
+				9A489EF119A6175300FF1CEF /* NIFFTHelper.m */,
+			);
+			path = Engine;
+			sourceTree = "<group>";
+		};
+		9A489EF419A619A500FF1CEF /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				9A489EF819A61A1E00FF1CEF /* NIDeviceUtils.h */,
+				9A489EF919A61A1E00FF1CEF /* NIDeviceUtils.m */,
+				9A489EF519A619A500FF1CEF /* NICommonUtils.h */,
+				9A489EF619A619A500FF1CEF /* NICommonUtils.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9A489EAE19A615C000FF1CEF /* SpectrumAnalyzerSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A489EE419A615C000FF1CEF /* Build configuration list for PBXNativeTarget "SpectrumAnalyzerSample" */;
+			buildPhases = (
+				9A489EAB19A615C000FF1CEF /* Sources */,
+				9A489EAC19A615C000FF1CEF /* Frameworks */,
+				9A489EAD19A615C000FF1CEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpectrumAnalyzerSample;
+			productName = SpectrumAnalyzerSample;
+			productReference = 9A489EAF19A615C000FF1CEF /* SpectrumAnalyzerSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9A489ED219A615C000FF1CEF /* SpectrumAnalyzerSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A489EE719A615C000FF1CEF /* Build configuration list for PBXNativeTarget "SpectrumAnalyzerSampleTests" */;
+			buildPhases = (
+				9A489ECF19A615C000FF1CEF /* Sources */,
+				9A489ED019A615C000FF1CEF /* Frameworks */,
+				9A489ED119A615C000FF1CEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A489ED919A615C000FF1CEF /* PBXTargetDependency */,
+			);
+			name = SpectrumAnalyzerSampleTests;
+			productName = SpectrumAnalyzerSampleTests;
+			productReference = 9A489ED319A615C000FF1CEF /* SpectrumAnalyzerSampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9A489EA719A615C000FF1CEF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = NI;
+				LastUpgradeCheck = 0510;
+				TargetAttributes = {
+					9A489ED219A615C000FF1CEF = {
+						TestTargetID = 9A489EAE19A615C000FF1CEF;
+					};
+				};
+			};
+			buildConfigurationList = 9A489EAA19A615C000FF1CEF /* Build configuration list for PBXProject "SpectrumAnalyzerSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9A489EA619A615C000FF1CEF;
+			productRefGroup = 9A489EB019A615C000FF1CEF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9A489EAE19A615C000FF1CEF /* SpectrumAnalyzerSample */,
+				9A489ED219A615C000FF1CEF /* SpectrumAnalyzerSampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9A489EAD19A615C000FF1CEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A489EC919A615C000FF1CEF /* Main_iPad.storyboard in Resources */,
+				9A489ECE19A615C000FF1CEF /* Images.xcassets in Resources */,
+				9A489EC619A615C000FF1CEF /* Main_iPhone.storyboard in Resources */,
+				9A489EFC19A61F1C00FF1CEF /* Rayman_2_music_sample.mp3 in Resources */,
+				9A489EBD19A615C000FF1CEF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A489ED119A615C000FF1CEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9A489EAB19A615C000FF1CEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A489ECC19A615C000FF1CEF /* NIViewController.m in Sources */,
+				9A489EFA19A61A1E00FF1CEF /* NIDeviceUtils.m in Sources */,
+				9A489EBF19A615C000FF1CEF /* main.m in Sources */,
+				9A489EF319A6175300FF1CEF /* NIFFTHelper.m in Sources */,
+				9A489EF219A6175300FF1CEF /* NIAudioManager.mm in Sources */,
+				9A489EF719A619A500FF1CEF /* NICommonUtils.m in Sources */,
+				9A489EEC19A616C300FF1CEF /* NISpectrumAnalyzerView.m in Sources */,
+				9A489EC319A615C000FF1CEF /* NIAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A489ECF19A615C000FF1CEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9A489ED919A615C000FF1CEF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A489EAE19A615C000FF1CEF /* SpectrumAnalyzerSample */;
+			targetProxy = 9A489ED819A615C000FF1CEF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9A489EBB19A615C000FF1CEF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A489EBC19A615C000FF1CEF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9A489EC419A615C000FF1CEF /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A489EC519A615C000FF1CEF /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		9A489EC719A615C000FF1CEF /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A489EC819A615C000FF1CEF /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9A489EE219A615C000FF1CEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9A489EE319A615C000FF1CEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9A489EE519A615C000FF1CEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SpectrumAnalyzerSample/SpectrumAnalyzerSample-Prefix.pch";
+				INFOPLIST_FILE = "SpectrumAnalyzerSample/SpectrumAnalyzerSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9A489EE619A615C000FF1CEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SpectrumAnalyzerSample/SpectrumAnalyzerSample-Prefix.pch";
+				INFOPLIST_FILE = "SpectrumAnalyzerSample/SpectrumAnalyzerSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		9A489EE819A615C000FF1CEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SpectrumAnalyzerSample.app/SpectrumAnalyzerSample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SpectrumAnalyzerSample/SpectrumAnalyzerSample-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SpectrumAnalyzerSampleTests/SpectrumAnalyzerSampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		9A489EE919A615C000FF1CEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SpectrumAnalyzerSample.app/SpectrumAnalyzerSample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SpectrumAnalyzerSample/SpectrumAnalyzerSample-Prefix.pch";
+				INFOPLIST_FILE = "SpectrumAnalyzerSampleTests/SpectrumAnalyzerSampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9A489EAA19A615C000FF1CEF /* Build configuration list for PBXProject "SpectrumAnalyzerSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A489EE219A615C000FF1CEF /* Debug */,
+				9A489EE319A615C000FF1CEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A489EE419A615C000FF1CEF /* Build configuration list for PBXNativeTarget "SpectrumAnalyzerSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A489EE519A615C000FF1CEF /* Debug */,
+				9A489EE619A615C000FF1CEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A489EE719A615C000FF1CEF /* Build configuration list for PBXNativeTarget "SpectrumAnalyzerSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A489EE819A615C000FF1CEF /* Debug */,
+				9A489EE919A615C000FF1CEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9A489EA719A615C000FF1CEF /* Project object */;
+}
